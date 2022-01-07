@@ -29,7 +29,7 @@ Return - True/False
 <img src="/Flowchart2.png" alt = "Flowchart of ST_Within"/>
 
 # Testing:
-***
+
 * 1.Go to the main directory in the cmd prompt and run the command sbt assembly.
 * 2.This will result in the creation of a jar file in the target folder.
 * 3.Copy this jar file into the main folder.
