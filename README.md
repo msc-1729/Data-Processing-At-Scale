@@ -18,7 +18,6 @@ There have been two functions defined that are ST_Contains and ST_Within:
 A Point and a Rectangle are the two arguments for this function. The coordinates of the point are indicated by Point, and the coordinates of the diagonal ends are indicated by Rectangle. These coordinates were supplied as a string. This function determines whether the point is within the rectangle.
 Parameters - pointString, queryRectangle
 Return - True/False
-# FlowChart:
 <img src="/Flowchart1.png" alt = "Flowchart of ST_Contains "/>
 
 # ST_Within:
