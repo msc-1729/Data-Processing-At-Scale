@@ -1,4 +1,4 @@
-#CSE 511 - PHASE 1 - Data Processing at Scale
+#CSE 511 - PHASE 1 - Data Processing at Scale:
 This project is all about to create user defined functions on which spatial queries can be built in order to perfoirm Hot Zone Analysis to efficiently find the taxi cab pickup points and Hot Spot Analysis to find the hotspots that are statistically significant using the Getis ord statistic.
 As a part of the project phase 1 user-defined functions are defined and spatial queries are developed. 
 # Problem Description:
@@ -27,7 +27,7 @@ that represents the point's coordinates. These coordinates were supplied as a st
 determine whether these two places are within D distance of one another.
 Parameters - PointString1, PointString2, distance
 Return - True/False
-<img src="/Flowcahrt2.png" alt = "Flowchart of ST_Within"/>
+<img src="/Flowchart2.png" alt = "Flowchart of ST_Within"/>
 
 # Testing:
 1.Go to the main directory in the cmd prompt and run the command sbt assembly.
