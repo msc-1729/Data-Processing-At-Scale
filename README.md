@@ -29,10 +29,10 @@ Return - True/False
 <img src="/Flowchart2.png" alt = "Flowchart of ST_Within"/>
 
 # Testing:
-1.Go to the main directory in the cmd prompt and run the command sbt assembly.
-2.This will result in the creation of a jar file in the target folder.
-3.Copy this jar file into the main folder.
-4.Run the command spark submit spark-submit .jarfile\result\output rangequery src\resources\arealm10000.csv -93.63173,33.0183,-93.359203,33.219456 rangejoinquery
-src\resources\arealm10000.csv src\resources\zcta10000.csv distancequery src\resources\arealm10000.csv -88.331492,32.324142 1 distancejoinquery src\resources\arealm10000 csv src\resources\arealm10000.csv 0.1.
-5.Executing this command will create a result folder with four output* subfolders.
-6.These folders contain the csv files with one having the query name and the other having the result value.
+Markup: 1.Go to the main directory in the cmd prompt and run the command sbt assembly.
+        2.This will result in the creation of a jar file in the target folder.
+        3.Copy this jar file into the main folder.
+        4.Run the command spark submit spark-submit .jarfile\result\output rangequery src\resources\arealm10000.csv -93.63173,33.0183,-93.359203,33.219456 rangejoinquery
+          src\resources\arealm10000.csv src\resources\zcta10000.csv distancequery src\resources\arealm10000.csv -88.331492,32.324142 1 distancejoinquery   src\resources\arealm10000 csv src\resources\arealm10000.csv 0.1.
+        5.Executing this command will create a result folder with four output* subfolders.
+        6.These folders contain the csv files with one having the query name and the other having the result value.
