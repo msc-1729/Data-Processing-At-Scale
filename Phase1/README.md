@@ -18,7 +18,7 @@ There have been two functions defined that are ST_Contains and ST_Within:
 A Point and a Rectangle are the two arguments for this function. The coordinates of the point are indicated by Point, and the coordinates of the diagonal ends are indicated by Rectangle. These coordinates were supplied as a string. This function determines whether the point is within the rectangle.
 Parameters - pointString, queryRectangle
 Return - True/False
-<img src="/Flowchart1.png" alt = "Flowchart of ST_Contains "/>
+<img src="/Phase1/Flowchart1.png" alt = "Flowchart of ST_Contains "/>
 
 ### ST_Within:
 There are three parameters in this function: two points and a distance. Distance D is a numerical value
@@ -26,7 +26,7 @@ that represents the point's coordinates. These coordinates were supplied as a st
 determine whether these two places are within D distance of one another.
 Parameters - PointString1, PointString2, distance
 Return - True/False
-<img src="/Flowchart2.png" alt = "Flowchart of ST_Within"/>
+<img src="/Phase1/Flowchart2.png" alt = "Flowchart of ST_Within"/>
 
 ### Testing:
 
